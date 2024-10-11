@@ -113,7 +113,7 @@
 
 let number = prompt('введить кількість років від 1 -100')
 let a = 10;
-if ((+number === 1) || (+number === 1+a) || (+number === 1+a*2)|| (+number === 1+a*3)|| (+number === 1+a*4)|| (+number === 1+a*5) || (+number === 1+a*6)|| (+number === 1+a*7)|| (+number === 1+a*8) ||(+number === 1+a*9)) {
+if ((+number === 1) ||(+number === 1+a*2)|| (+number === 1+a*3)|| (+number === 1+a*4)|| (+number === 1+a*5) || (+number === 1+a*6)|| (+number === 1+a*7)|| (+number === 1+a*8) ||(+number === 1+a*9)) {
     alert(`${number}рік`);
 } else if ((+number === 2)|| (+number === 3)|| (+number === 4) || (+number === 2+a)|| (+number === 3+a)||(+number === 4+a)|| (+number === 2+a*2)|| (+number === 3+a*2)||(+number === 4+a*2)|| (+number === 2+a*3)|| (+number === 3+a*3)||(+number === 4+a*3)|| (+number === 2+a*4)|| (+number === 3+a*4)||(+number === 4+a*4)|| (+number === 2+a*5)|| (+number === 3+a*5)||(+number === 4+a*5)|| (+number === 2+a*6)|| (+number === 3+a*6)||(+number === 4+a*6)|| (+number === 2+a*7)|| (+number === 3+a*7)||(+number === 4+a*7)|| (+number === 2+a*8)|| (+number === 3+a*8)||(+number === 4+a*8)|| (+number === 2+a*9)|| (+number === 3+a*9)||(+number === 4+a*9)) {
     alert(`${number}роки`)
